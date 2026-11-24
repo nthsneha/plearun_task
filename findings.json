@@ -1,0 +1,43 @@
+{
+  "findings": [
+    {
+      "claim": "Officer Lee first observed the blue sedan at about 21:14 near mile marker 4",
+      "finding": "match",
+      "cite": {
+        "file": "notes_cp1252.csv",
+        "row": 1
+      },
+      "quote": "N-1,Officer Lee,\"Vehicle observed, plate unknown\",21:15"
+    },
+    {
+      "claim": "travelling 58 mph in a posted 45 zone",
+      "finding": "not_settled"
+    },
+    {
+      "claim": "The driver pulled into the Harbor Gas lot and stopped around 21:16",
+      "finding": "match",
+      "cite": {
+        "file": "notes_cp1252.csv",
+        "row": 3
+      },
+      "quote": "N-3,Officer Lee,Stopped at lot ~21:16,21:16"
+    },
+    {
+      "claim": "A 911 call reporting the incident was logged at 21:11",
+      "finding": "match",
+      "cite": {
+        "file": "dispatch.json",
+        "row": 1
+      },
+      "quote": "\"logged\": \"2026-03-02 21:10:19\""
+    },
+    {
+      "claim": "Dispatch records show a unit on scene roughly 2 minutes after the stop",
+      "finding": "not_settled"
+    },
+    {
+      "claim": "Officer Lee states the vehicle was the only car in the lane",
+      "finding": "not_checkable"
+    }
+  ]
+}
